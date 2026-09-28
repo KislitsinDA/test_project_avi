@@ -1,0 +1,1 @@
+# Avito candidate generation package

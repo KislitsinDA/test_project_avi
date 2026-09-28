@@ -1,0 +1,9 @@
+data/
+cache/
+*.zip
+answer.csv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo

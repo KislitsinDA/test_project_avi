@@ -1,0 +1,11 @@
+# Только CPU (без CUDA). Быстрее ставится, эмбеддинги дольше считаются.
+#   pip install -r requirements-cpu.txt
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.6.0
+
+pandas>=2.0
+pyarrow>=14.0
+numpy>=1.24
+tqdm>=4.66
+sentence-transformers>=2.2

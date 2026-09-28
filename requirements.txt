@@ -1,0 +1,14 @@
+# Установка из этой папки (avito), когда venv уже активирован:
+#   pip install -r requirements.txt
+#
+# Первая строка — wheel torch с CUDA 12.4 (RTX 4050, Windows).
+# Скачается ~2.5 ГБ, это нормально.
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch>=2.6.0
+
+pandas>=2.0
+pyarrow>=14.0
+numpy>=1.24
+tqdm>=4.66
+sentence-transformers>=2.2
